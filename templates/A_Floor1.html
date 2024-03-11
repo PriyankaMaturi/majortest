@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Building Blueprint</title>
+    <link rel="stylesheet" href="test.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .floor {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .room, .lab {
+            background-color: #ddd;
+            border: 1px solid #777;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="floor">
+        <!-- First Floor -->
+        <div class="room" style="grid-column: 1 / span 5; grid-row: 1;">First Floor</div>
+        <div class="room" style="grid-column: 1; grid-row: 2;">Room 101</div>
+        <div class="room" style="grid-column: 2; grid-row: 2;">Room 102</div>
+        <div class="room" style="grid-column: 3; grid-row: 2;">Room 103</div>
+        <div class="room" style="grid-column: 4; grid-row: 2;">Room 104</div>
+        <div class="room" style="grid-column: 5; grid-row: 2;">Room 105</div>
+        <div class="room" style="grid-column: 1; grid-row: 3;">Room 106</div>
+        <div class="room" style="grid-column: 2; grid-row: 3;">Room 107</div>
+        <div class="room" style="grid-column: 3; grid-row: 3;">Room 108</div>
+        <div class="room" style="grid-column: 4; grid-row: 3;">Room 109</div>
+        <div class="room" style="grid-column: 5; grid-row: 3;">Room 110</div>
+        <div class="room" style="grid-column: 1; grid-row: 4;">Room 111</div>
+        <div class="room" style="grid-column: 2; grid-row: 4;">Room 112</div>
+        <div class="room" style="grid-column: 3; grid-row: 4;">Room 113</div>
+        <div class="room" style="grid-column: 4; grid-row: 4;">Room 114</div>
+        <div class="room" style="grid-column: 5; grid-row: 4;">Room 115</div>
+        <div class="room" style="grid-column: 1; grid-row: 5;">Room 116</div>
+        <div class="room" style="grid-column: 2; grid-row: 5;">Room 117</div>
+        <div class="room" style="grid-column: 3; grid-row: 5;">Room 118</div>
+        <div class="room" style="grid-column: 4; grid-row: 5;">Room 119</div>
+        <div class="room" style="grid-column: 5; grid-row: 5;">Room 120</div>
+        <div class="lab" style="grid-column: 3 / span 2; grid-row: 3;">Lab 1</div>
+        <div class="lab" style="grid-column: 1 / span 2; grid-row: 4;">Lab 2</div>
+    </div>
+
+    <!-- Add more floor divs for each floor -->
+
+    <script src="script.js"></script>
+</body>
+</html>
